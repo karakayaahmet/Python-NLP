@@ -16,3 +16,5 @@ for token in word_tokenize(text):
 
 for token in sent_tokenize(text):
     print(token)
+
+    
