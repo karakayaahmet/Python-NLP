@@ -19,3 +19,9 @@ print(model.wv["ankara"])
 print(model.wv.most_similar("hollanda"))
 
 print(model.wv.most_similar("pazartesi"))
+
+# modelin kayıt edilmesi
+model.save("word2vec.model")
+
+# modelin yüklenmesi
+model = Word2Vec.load("word2vec.model")
